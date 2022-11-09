@@ -2,6 +2,9 @@
     background-color: #232F3E;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 .header-logo{
     width: 100px;
@@ -53,4 +56,13 @@
 .header-link{
     color: white;
     text-decoration: none;
+}
+.header-option-basket{
+    display: flex;
+    align-items: center;
+}
+.basket-count{
+    margin-left: 10px;
+    margin-right: 10px;
+
 }
