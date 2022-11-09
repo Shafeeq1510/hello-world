@@ -1,13 +1,17 @@
 import react from "react";
 import "./App.css"
 import Headers from "./Headers";
+import Home from "./Home";
+
 import {BrowserRouter as Router, Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
+
 export default function Apps(){
     return(
       <Router>
           <div className="app">
               <Switch>
                   <Route path="/checkout">
+                      <Headers />
                       <h1>Checkout</h1>
 
                   </Route>
@@ -17,7 +21,8 @@ export default function Apps(){
                   </Route>
                   <Route path="/">
                       <Headers />
-                      <h1>Home page</h1>
+                        <Home />
+                     
                   </Route>
               </Switch>
           </div>
