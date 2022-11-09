@@ -16,6 +16,8 @@
 .product-info{
     height: 100px;
     margin-bottom: 15px;
+    font-weight: 600;
+    font-size: small;
 
 }
 .product > img{
@@ -26,6 +28,7 @@
 }
 .product-price{
     margin-top: 5px;
+    font-size: medium;
 
 }
 .product-rating{
